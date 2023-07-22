@@ -22,7 +22,7 @@ make install
 ## add or update applications managed by brew
 
 ```sh
-brew file init
+brew bundle dump
 ```
 
 ## iterm settings

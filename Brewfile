@@ -1,246 +1,269 @@
-
-# tap repositories and their packages
-
-tap homebrew/core
-brew ansible
-brew anyenv
-brew aom
-brew apr
-brew apr-util
-brew argon2
-brew aspell
-brew autoconf
-brew awscli
-brew awslogs
-brew brotli
-brew ca-certificates
-brew cairo
-brew cffi
-brew cocoapods
-brew composer
-brew coreutils
-brew cscope
-brew ctags
-brew curl
-brew direnv
-brew docutils
-brew envoy
-brew fontconfig
-brew freetds
-brew freetype
-brew fribidi
-brew fswatch
-brew fzf
-brew gd
-brew gdbm
-brew gdk-pixbuf
-brew gettext
-brew gh
-brew ghi
-brew giflib
-brew git
-brew glib
-brew gmp
-brew gnu-sed
-brew gobject-introspection
-brew graphite2
-brew graphviz
-brew gts
-brew harfbuzz
-brew helm
-brew highway
-brew hub
-brew icu4c
-brew imath
-brew jasper
-brew jmeter
-brew jpeg-turbo
-brew jpeg-xl
-brew jq
-brew krb5
-brew libavif
-brew libcbor
-brew libevent
-brew libfido2
-brew libidn2
-brew libnghttp2
-brew libpng
-brew libpq
-brew librsvg
-brew libsodium
-brew libssh2
-brew libtiff
-brew libtool
-brew libunistring
-brew libvmaf
-brew libx11
-brew libxau
-brew libxcb
-brew libxdmcp
-brew libxext
-brew libxrender
-brew libyaml
-brew libzip
-brew little-cms2
-brew lua
-brew luajit
-brew lz4
-brew lzo
-brew m4
-brew mas
-brew maven
-brew minio
-brew mpdecimal
-brew mysql
-brew mysql@5.7
-brew ncurses
-brew netpbm
-brew nginx
-brew nkf
-brew node-build
-brew nodebrew
-brew oniguruma
-brew openexr
-brew openjdk
-brew openldap
-brew openssl@1.1
-brew openssl@3
-brew p7zip
-brew pango
-brew pcre
-brew pcre2
-brew php
-brew pixman
-brew pkg-config
-brew protobuf
-brew protobuf@3
-brew protoc-gen-grpc-web
-brew putty
-brew pwgen
-brew pycparser
-brew python@3.10
-brew python@3.11
-brew python@3.9
-brew pyyaml
-brew ranger
-brew readline
-brew reattach-to-user-namespace
-brew redis
-brew rename
-brew rtmpdump
-brew ruby
-brew six
-brew spark
-brew sqlite
-brew telnet
-brew terraform
-brew the_silver_searcher
-brew tidy-html5
-brew tig
-brew tmux
-brew tree
-brew unison
-brew unixodbc
-brew utf8proc
-brew webp
-brew wget
-brew xorgproto
-brew xz
-brew zlib
-brew zsh
-brew zsh-completions
-brew zstd
-
-tap homebrew/cask
-cask 1password
-cask alt-tab
-cask altair-graphql-client
-cask android-studio
-cask authy
-cask brave-browser
-cask chromedriver
-cask clipy
-cask dbeaver-community
-cask discord
-cask docker
-cask figma
-cask flotato
-cask flutter
-cask gitkraken
-cask google-chrome
-cask google-drive
-cask iconjar
-cask iconset
-cask inkscape
-cask iterm2
-cask karabiner-elements
-cask keeper-password-manager
-cask kindle
-cask macvim
-cask mysqlworkbench
-cask ngrok
-cask obsidian
-cask openineditor-lite
-cask openinterminal-lite
-cask postman
-cask proxyman
-cask raycast
-cask sf-symbols
-cask skitch
-cask slack
-cask spotify
-cask ssh-tunnel-manager
-cask tableplus
-cask visual-studio-code
-cask zoom
-
-tap homebrew/bundle
-
-tap homebrew/cask-fonts
-cask font-fira-code
-cask font-hack-nerd-font
-cask font-noto-mono-for-powerline
-cask font-ricty-diminished
-
-tap homebrew/cask-versions
-
-tap homebrew/services
-
-tap argon/mas
-
-tap buo/cask-upgrade
-
-tap cloudfoundry/tap
-
-tap eugenmayer/dockersync
-brew unox
-
-tap felixkratz/formulae
-brew sketchybar
-
-tap heroku/brew
-
-tap koekeishiya/formulae
-brew skhd
-
-tap pivotal/tap
-
-tap rcmdnk/file
-brew brew-file
-
-# App Store applications
-appstore 937984704 Amphetamine (5.2.2)
-appstore 993841014 CopyLess 2 (2.17.4)
-appstore 682658836 GarageBand (10.4.7)
-appstore 1444383602 GoodNotes (5.9.103)
-appstore 408981434 iMovie (10.3.5)
-appstore 409183694 Keynote (13.0)
-appstore 539883307 LINE (7.16.1)
-appstore 441258766 Magnet (2.11.0)
-appstore 1559269364 Notion Web Clipper (1.0.3)
-appstore 409203825 Numbers (13.0)
-appstore 409201541 Pages (13.0)
-appstore 1407015686 Paste Plain Text (1.0.5)
-appstore 1429033973 RunCat (9.7)
-appstore 747648890 Telegram (9.6.1)
-appstore 497799835 Xcode (14.3)
+tap "argon/mas"
+tap "buo/cask-upgrade"
+tap "cloudfoundry/tap"
+tap "eugenmayer/dockersync"
+tap "felixkratz/formulae"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "koekeishiya/formulae", "https://github.com/koekeishiya/homebrew-formulae.git"
+tap "pivotal/tap"
+tap "rcmdnk/file"
+brew "ca-certificates"
+brew "mpdecimal"
+brew "openssl@1.1"
+brew "openssl@3"
+brew "readline"
+brew "sqlite"
+brew "xz"
+brew "python@3.11"
+brew "pycparser"
+brew "cffi"
+brew "libyaml"
+brew "pyyaml"
+brew "six"
+brew "ansible"
+brew "anyenv"
+brew "brotli"
+brew "giflib"
+brew "highway"
+brew "imath"
+brew "jpeg-turbo"
+brew "libpng"
+brew "lz4"
+brew "zstd"
+brew "libtiff"
+brew "little-cms2"
+brew "openexr"
+brew "webp"
+brew "jpeg-xl"
+brew "libvmaf"
+brew "aom"
+brew "apr"
+brew "apr-util"
+brew "argon2"
+brew "aspell"
+brew "m4"
+brew "autoconf"
+brew "docutils"
+brew "awscli"
+brew "awslogs"
+brew "freetype"
+brew "fontconfig"
+brew "gettext"
+brew "pcre2"
+brew "glib"
+brew "xorgproto"
+brew "libxau"
+brew "libxdmcp"
+brew "libxcb"
+brew "libx11"
+brew "libxext"
+brew "libxrender"
+brew "lzo"
+brew "pixman"
+brew "cairo"
+brew "ruby"
+brew "cocoapods"
+brew "gmp"
+brew "coreutils"
+brew "cscope"
+brew "ctags"
+brew "libunistring"
+brew "libidn2"
+brew "libnghttp2"
+brew "libssh2"
+brew "openldap"
+brew "rtmpdump"
+brew "curl"
+brew "direnv"
+brew "envoy"
+brew "libtool"
+brew "unixodbc"
+brew "freetds"
+brew "fribidi"
+brew "fswatch"
+brew "fzf"
+brew "libavif"
+brew "gd"
+brew "gdbm"
+brew "gdk-pixbuf"
+brew "gh"
+brew "ghi"
+brew "git"
+brew "gnu-sed"
+brew "libevent"
+brew "gnupg"
+brew "pkg-config"
+brew "gobject-introspection"
+brew "graphite2"
+brew "jasper"
+brew "netpbm"
+brew "gts"
+brew "icu4c"
+brew "harfbuzz"
+brew "pango"
+brew "librsvg"
+brew "graphviz"
+brew "helm"
+brew "hub"
+brew "jmeter"
+brew "oniguruma"
+brew "jq"
+brew "krb5"
+brew "libcbor"
+brew "libfido2"
+brew "libpq"
+brew "libsodium"
+brew "libzip"
+brew "lua"
+brew "luajit"
+brew "mas"
+brew "zlib"
+brew "mysql"
+brew "ncurses"
+brew "nkf"
+brew "node-build"
+brew "openjdk"
+brew "pcre"
+brew "pinentry-mac"
+brew "protobuf"
+brew "protobuf@3"
+brew "protoc-gen-grpc-web"
+brew "pwgen"
+brew "python@3.10"
+brew "python@3.9"
+brew "ranger"
+brew "reattach-to-user-namespace"
+brew "rename"
+brew "telnet"
+brew "terraform"
+brew "the_silver_searcher"
+brew "tidy-html5"
+brew "tig"
+brew "utf8proc"
+brew "tmux"
+brew "tree"
+brew "unison"
+brew "wget"
+brew "zsh-completions"
+brew "eugenmayer/dockersync/unox"
+brew "felixkratz/formulae/sketchybar"
+brew "koekeishiya/formulae/skhd"
+brew "rcmdnk/file/brew-file"
+cask "1password"
+cask "alt-tab"
+cask "altair-graphql-client"
+cask "android-studio"
+cask "authy"
+cask "chatwork"
+cask "chromedriver"
+cask "clipy"
+cask "discord"
+cask "docker"
+cask "figma"
+cask "flotato"
+cask "flutter"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-noto-mono-for-powerline"
+cask "font-ricty-diminished"
+cask "github"
+cask "gitkraken"
+cask "google-chrome"
+cask "google-drive"
+cask "iconset"
+cask "iterm2"
+cask "karabiner-elements"
+cask "kindle"
+cask "logitune"
+cask "macvim"
+cask "microsoft-auto-update"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-teams"
+cask "mongodb-compass"
+cask "mysqlworkbench"
+cask "ngrok"
+cask "obsidian"
+cask "openineditor-lite"
+cask "openinterminal-lite"
+cask "postman"
+cask "proxyman"
+cask "sf-symbols"
+cask "skitch"
+cask "slack"
+cask "spotify"
+cask "ssh-tunnel-manager"
+cask "tableplus"
+cask "visual-studio-code"
+cask "zoom"
+mas "Amphetamine", id: 937984704
+mas "CopyLess 2", id: 993841014
+mas "GarageBand", id: 682658836
+mas "GoodNotes", id: 1444383602
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Notion Web Clipper", id: 1559269364
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Paste Plain Text", id: 1407015686
+mas "PicGIF Lite", id: 844918735
+mas "RunCat", id: 1429033973
+mas "Telegram", id: 747648890
+mas "Xcode", id: 497799835
+vscode "adpyke.vscode-sql-formatter"
+vscode "bierner.markdown-mermaid"
+vscode "CodeSandbox-io.codesandbox-projects"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "donjayamanne.githistory"
+vscode "dracula-theme.theme-dracula"
+vscode "EditorConfig.EditorConfig"
+vscode "esbenp.prettier-vscode"
+vscode "firsttris.vscode-jest-runner"
+vscode "GitHub.codespaces"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-labs"
+vscode "GitHub.vscode-pull-request-github"
+vscode "harg.iceberg"
+vscode "hashicorp.terraform"
+vscode "janisdd.vscode-edit-csv"
+vscode "jduponchelle.rainbow-end"
+vscode "mechatroner.rainbow-csv"
+vscode "mhutchie.git-graph"
+vscode "mindaro-dev.file-downloader"
+vscode "mquandalle.graphql"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode-remote.remote-wsl"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
+vscode "ms-vscode.live-server"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.remote-server"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "naumovs.color-highlight"
+vscode "nrwl.angular-console"
+vscode "oderwat.indent-rainbow"
+vscode "Orta.vscode-jest"
+vscode "PKief.material-icon-theme"
+vscode "Prisma.prisma"
+vscode "PulkitGangwar.nextjs-snippets"
+vscode "redhat.vscode-yaml"
+vscode "sohamkamani.code-eol"
+vscode "stylelint.vscode-stylelint"
+vscode "tonybaloney.vscode-pets"
+vscode "tusaeff.vscode-iterm2-theme-sync"
+vscode "vscode-icons-team.vscode-icons"
+vscode "wix.vscode-import-cost"
