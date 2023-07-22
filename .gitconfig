@@ -1,0 +1,32 @@
+[user]
+	email = ryuto.chiba@cbmrham.com
+	name = cbmrham
+	signingkey = AF298761AC95B1C4827896A811135C38F21EA265
+[alias]
+	co = checkout
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+  required = true
+[core]
+  editor = code --wait
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[ini]
+	defaultBranch = main
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = false
+	gpgsign = true

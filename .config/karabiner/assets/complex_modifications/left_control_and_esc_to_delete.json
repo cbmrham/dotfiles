@@ -1,0 +1,29 @@
+{
+  "title": "Map Left Control plus Escape to delete",
+  "rules": [
+    {
+      "description": "Map Left Cotrol plus Escape to delete",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
